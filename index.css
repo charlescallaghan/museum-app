@@ -7,7 +7,7 @@ body {
     text-align: center;
   }
   main {
-    background: white;
+    background: #61D8F2;
     width: 90%;
     margin: auto;
     border-radius: 5px;
@@ -15,4 +15,18 @@ body {
   }
   h1 {
       margin: 3rem 1rem rem 1rem;
+  }
+  h2 {
+    margin: auto 2rem;
+  }
+  #gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
   }
