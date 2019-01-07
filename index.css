@@ -3,6 +3,16 @@ body {
     padding: 2rem 0;
     width: 100%;
     background: #218EA5;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
+  }
+  main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+  h1 {
+      margin: 3rem 1rem rem 1rem;
   }
