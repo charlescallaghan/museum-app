@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+    background: #218EA5;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+  }
+  main {
+    background: #61D8F2;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+  h1 {
+      margin: 3rem 1rem rem 1rem;
+  }
+  h2 {
+    margin: auto 2rem;
+  }
+  #gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+  }
