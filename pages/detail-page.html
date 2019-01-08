@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,35 +10,39 @@
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <script src="main.js"></script>
 </head>
+
 <body>
     <main>
-    <section id="content">
-        <p>Charles's Mobile Museum App</p>
-        <h1>The Scream, Edvard Munch, 1893
-        </h1>
-        <img class="artObject" src="https://render.fineartamerica.com/images/rendered/square-dynamic/small/images/artworkimages/mediumlarge/1/11-the-scream-edvard-munch.jpg" alt="The Scream Painting">
-    </section>
-    <section id="comments">
-        <h2>Comments</h2>
-        <section class="comment">
-            <h3>Jimmy said:</h3>
-            <p>"This one is amazing!"</p>
+        <section id="content">
+            <p>Charles's Mobile Museum App</p>
+            <h1>The Scream, Edvard Munch, 1893</h1>
+            <img class="artObject" src="https://render.fineartamerica.com/images/rendered/square-dynamic/small/images/artworkimages/mediumlarge/1/11-the-scream-edvard-munch.jpg"
+                alt="The Scream Painting">
         </section>
-    </section>
-    <form onsubmit="submitComment (); return false">
+        <section id="comments">
+            <h2>Comments</h2>
+            <section class="comment">
+                <h3>Jimmy said:</h3>
+                <p>"This one is amazing!"</p>
+            </section>
+        </section>
+        <form onsubmit="submitComment (); return false">
             <div class="formSection">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name">
-                  </div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
             <div class="formSection">
-                    <label for="msg">Message:</label>
-                    <textarea id="msg"></textarea>
-                  </div>
+                <label for="msg">Message:</label>
+                <textarea id="msg"></textarea>
+            </div>
             <div class="button">
-                        <button type="default">Post your comment</button>
-                  </div>
-    </form>
+                <button type="default">Post your comment</button>
+            </div>
+        </form>
     </main>
-    <footer><p>Made with ❤ by Charles</p></footer>
+    <footer>
+        <p>Made with ❤ by Charles</p>
+    </footer>
 </body>
+
 </html>

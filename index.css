@@ -33,8 +33,30 @@ h2 {
 }
 
 .row {
-  display: flex
-  padding: 15px
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rowalt {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  flex-flow: row-reverse;
+  margin-bottom: 1rem
+}
+
+p.footerText {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+p {
+  max-width: 500px
 }
   
 .artObject {
